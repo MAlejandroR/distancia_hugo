@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Ejemplo uso hugo con relearn Distancia'
+theme =['relearn']
+
