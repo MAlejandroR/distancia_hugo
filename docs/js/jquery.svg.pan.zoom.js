@@ -67,7 +67,7 @@ Options:
         drag: boolean (true), // enables drag and drop to move the SVG events
         dragCursor: string "move" // cursor to use while dragging the SVG
     },
-    animationTime: number (300), // time in milliseconds to use as default for animations. Set 0 to remove the animation
+    animationTime: number (300), // time in milliseconds to use as _default for animations. Set 0 to remove the animation
     zoomFactor: number (0.25), // how much to zoom-in or zoom-out
     maxZoom: number (3), //maximum zoom in, must be a number bigger than 1
     panFactor: (number (100), // how much to move the viewBox when calling .panDirection() methods

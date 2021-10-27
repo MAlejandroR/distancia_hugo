@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="description" content="">
+    <link rel="icon" href="/docs/images/favicon.png" type="image/png">
+    <title>Instalación :: Exemple d&#39;utilisation des langues</title>
+    <link href="/docs/css/nucleus.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/fontawesome-all.min.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/featherlight.min.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/perfect-scrollbar.min.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/auto-complete.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/theme.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/theme-dwes.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/variant.css?1635361143" rel="stylesheet">
+    <link href="/docs/css/print.css?1635361143" rel="stylesheet" media="print">
+    <script src="/docs/js/jquery.min.js?1635361143"></script>
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+      }
+    </style>
+  </head>
+  <body class="" data-url="/docs/fr/static/teoria/instalacion/">
+    <nav id="sidebar" class="">
+      <div id="header-wrapper">
+        <div id="header">
+          <a id="logo"
+            href="http://cpilosenlaces.com"
+            style="
+              color: #3d414d;
+              font-family: 'Novacento Sans Wide', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              margin-top: -2px;
+            ">
+                <img src="/images/logo.png" alt="Logo del ciclo">
+            Desarrollo Web
+          </a>
+        </div>
+        <div class="searchbox">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script src="/docs/js/lunr.min.js?1635361143"></script>
+        <script src="/docs/js/auto-complete.js?1635361143"></script>
+        <!-- hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic: -->
+        <!-- https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72 -->
+        <script>
+          var index_url="/docs/fr/index.json";
+          var root_url="/";
+          var baseUri=root_url.replace(/\/$/, '');
+        </script>
+        <script src="/docs/js/search.js?1635361143"></script>
+      </div>
+      <div id="homelinks">
+        <ul>
+          <li>
+              <a class="padding" href="http://cpilosenlaces.com"><i class='fas fa-university'></i> IPC Les Enlaces</a>
+          </li>
+        </ul>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/docs/fr/introduccion/" title="Introduccion" class="dd-item"><a href="/docs/fr/introduccion/"><b>X. </b>Introduccion</a><ul>
+          <li data-nav-id="/docs/fr/introduccion/arquitectura_web/" title="Arquitectura_web" class="dd-item"><a href="/docs/fr/introduccion/arquitectura_web/">Arquitectura_web</a></li></ul></li>
+          <li data-nav-id="/docs/fr/static/" title="Statics" class="dd-item parent"><a href="/docs/fr/static/">Statics</a><ul>
+          <li data-nav-id="/docs/fr/static/practica/" title="Practica" class="dd-item alwaysopen"><a href="/docs/fr/static/practica/"><b>X. </b>Practica</a><ul>
+          <li data-nav-id="/docs/fr/static/practica/datos/" title="Obtener Json" class="dd-item"><a href="/docs/fr/static/practica/datos/">Obtener Json</a></li></ul></li>
+          <li data-nav-id="/docs/fr/static/teoria/" title="Teoria" class="dd-item parent alwaysopen"><a href="/docs/fr/static/teoria/"><b>X. </b>Teoria</a><ul>
+          <li data-nav-id="/docs/fr/static/teoria/contenido/" title="Contenido" class="dd-item"><a href="/docs/fr/static/teoria/contenido/">Contenido</a></li>
+          <li data-nav-id="/docs/fr/static/teoria/temas/" title="Temas" class="dd-item"><a href="/docs/fr/static/teoria/temas/">Temas</a></li>
+          <li data-nav-id="/docs/fr/static/teoria/instalacion/" title="Instalación" class="dd-item active"><a href="/docs/fr/static/teoria/instalacion/">Instalación</a></li>
+          <li data-nav-id="/docs/fr/static/teoria/plantilla/" title="Plantillas" class="dd-item"><a href="/docs/fr/static/teoria/plantilla/">Plantillas</a></li></ul></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title">otros en francés</div>
+          <ul>
+            <li><a class="padding" href="https://php.net"><i class='fab fa-php'></i>   Lenguaje php</a></li>
+            <li><a class="padding" href="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"><i class='fas fa-address-card'></i>   Wiki del curso</a></li>
+            <li><a class="padding" href="http://manuel.infenlaces.com/dwes/ejercicios/"><i class='far fa-question-circle'></i>   Ejercicios resueltos</a></li>
+          </ul>
+        </div>
+        <div id="prefooter">
+          <hr/>
+          <ul>
+            <li>
+              <a class="padding">
+                <i class="fas fa-language fa-fw"></i>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = this.value;">
+                    <option id="es" value="https://malejandror.githubio.com/docs/static/teoria/instalacion/">Español</option>
+                    <option id="en" value="https://malejandror.githubio.com/docs/en/static/teoria/instalacion/">English</option>
+                    <option id="fr" value="https://malejandror.githubio.com/docs/fr/static/teoria/instalacion/" selected>Français</option>
+                  </select>
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+                    <g>
+                      <g id="arrow-drop-down">
+                        <polygon points="0,63.75 127.5,191.25 255,63.75" />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="footer">
+
+
+<p>@Manuel Romero<a href="https:es.wikieducator.org/Usuario:ManuelRomero"> <i class="fas fa-laptop-code"></i></a> <a href="https://gohugo.io/">hugo</a></p>
+        </div>
+      </div>
+    </nav>
+    <div id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="top-bar">
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                <i class="fas fa-bars"></i>
+              </a>
+            </span>
+            <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+                <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="/docs/fr/"><span itemprop="name">Exemple d&#39;utilisation des langues</span></a> > </li>
+                <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/docs/fr/static/"><span itemprop="name">Statics</span></a> > </li>
+                <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/docs/fr/static/teoria/"><span itemprop="name">Teoria</span></a> > </li>
+                <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/docs/fr/static/teoria/instalacion/" aria-disabled="true"><span itemprop="name">Instalación</span></a></li>
+            </ol>
+          </div>
+            <div class="progress">
+              <div class="wrapper">
+<nav id="TableOfContents"></nav>
+              </div>
+            </div>
+        </div>
+        <div id="head-tags">
+        </div>
+        <main id="body-inner">
+          <h1>Instalación</h1>
+
+
+          <footer class="footline">
+          </footer>
+        </main>
+      </div>
+      <div id="navigation">
+        <a class="nav nav-prev" href="/docs/fr/static/teoria/temas/" title="Temas"><i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/docs/fr/static/teoria/plantilla/" title="Plantillas"><i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/docs/js/clipboard.min.js?1635361143"></script>
+    <script src="/docs/js/perfect-scrollbar.min.js?1635361143"></script>
+    <script src="/docs/js/perfect-scrollbar.jquery.min.js?1635361143"></script>
+    <script src="/docs/js/jquery.svg.pan.zoom.js?1635361143"></script>
+    <script src="/docs/js/featherlight.min.js?1635361143"></script>
+    <script src="/docs/js/modernizr.custom-3.6.0.js?1635361143"></script>
+    <script src="/docs/js/mermaid.min.js?1635361143"></script>
+    <script>
+      if (typeof mermaid != 'undefined') {
+        mermaid.mermaidAPI.initialize( Object.assign( { "securityLevel": "antiscript" }, JSON.parse("{ \"startOnLoad\": true }"), { startOnLoad: false } ) );
+      }
+    </script>
+    <script src="/docs/js/relearn.js?1635361143"></script>
+  </body>
+</html>

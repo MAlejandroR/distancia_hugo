@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teoria on Exemple d&#39;utilisation des langues</title>
+    <link>https://malejandror.githubio.com/docs/fr/static/teoria/</link>
+    <description>Recent content in Teoria on Exemple d&#39;utilisation des langues</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 13:31:19 +0200</lastBuildDate><atom:link href="https://malejandror.githubio.com/docs/fr/static/teoria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contenido</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/teoria/contenido/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:19 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/teoria/contenido/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Temas</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/teoria/temas/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:14 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/teoria/temas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instalación</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/teoria/instalacion/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:08 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/teoria/instalacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plantillas</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/teoria/plantilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/teoria/plantilla/</guid>
+      <description>Uso de una plantilla En esta página veremos el uso de una plantilla
+No tendrá el formato del sitio, ya que crearemos una plantilla independiente</description>
+    </item>
+  </channel>
+</rss>

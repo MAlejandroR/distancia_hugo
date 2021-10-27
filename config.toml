@@ -1,5 +1,60 @@
-baseURL = 'http://example.org/'
+#baseURL = 'http://example.org/'
+#baseURL = 'https://dwes.infenlaces.com/hugo/'
+baseURL = 'https://malejandror.githubio.com/docs'
+
 languageCode = 'en-us'
 title = 'Ejemplo uso hugo con relearn Distancia'
 theme =['relearn']
+#Idioma por defecto
+defaultContentLanguage="es"
 
+
+#Definición de diferentes idiomas
+
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> CPI Los Enlaces"
+        ContentDir ="content/es"
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> IMTC The Enlaces"
+        ContentDir ="content/en"
+   [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = "Français"
+        landingPageURL = "http://cpilosenlaces.com"
+        landingPageName = "<i class='fas fa-university'></i> IPC Les Enlaces"
+        ContentDir ="content/fr"
+
+
+[[menu.shortcuts]]
+name="<i class='fab fa-php'></i>   Lenguaje php"
+identified=""
+url="https://php.net"
+weight=1
+
+[[menu.shortcuts]]
+name="<i class='fas fa-address-card'></i>   Wiki del curso"
+identified=""
+url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+weight=2
+
+[[menu.shortcuts]]
+name="<i class='far fa-question-circle'></i>   Ejercicios resueltos"
+identified=""
+url="http://manuel.infenlaces.com/dwes/ejercicios/"
+weight=3
+
+[params]
+themeVariant="dwes"
+
+#Para deshabilitar el botón de home
+#disableLandingPageButton = true

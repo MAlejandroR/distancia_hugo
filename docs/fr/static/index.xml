@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statics on Exemple d&#39;utilisation des langues</title>
+    <link>https://malejandror.githubio.com/docs/fr/static/</link>
+    <description>Recent content in Statics on Exemple d&#39;utilisation des langues</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 13:31:19 +0200</lastBuildDate><atom:link href="https://malejandror.githubio.com/docs/fr/static/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practica</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/practica/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:19 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/practica/</guid>
+      <description>Chapter X Some Chapter title Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Teoria</title>
+      <link>https://malejandror.githubio.com/docs/fr/static/teoria/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:19 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/static/teoria/</guid>
+      <description>Chapter X Some Chapter title Lorem Ipsum.</description>
+    </item>
+  </channel>
+</rss>

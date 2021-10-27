@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduccion on Exemple d&#39;utilisation des langues</title>
+    <link>https://malejandror.githubio.com/docs/fr/introduccion/</link>
+    <description>Recent content in Introduccion on Exemple d&#39;utilisation des langues</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 13:30:08 +0200</lastBuildDate><atom:link href="https://malejandror.githubio.com/docs/fr/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquitectura_web</title>
+      <link>https://malejandror.githubio.com/docs/fr/introduccion/arquitectura_web/</link>
+      <pubDate>Thu, 21 Oct 2021 13:30:08 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/fr/introduccion/arquitectura_web/</guid>
+      <description>Introduction Il s&amp;rsquo;agit d&amp;rsquo;un thème d&amp;rsquo;architecture web que nous souhaitons visualiser</description>
+    </item>
+  </channel>
+</rss>

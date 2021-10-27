@@ -1,0 +1,20 @@
+{{- partial "header.html" . }}
+
+{{ .Content }}
+ <h1>Esta es una página especial que no tiene nada</h1>
+ <h2>Y por no tener no tiene ni el contenido ni la forma del resto del sito</h2>
+<span style="color:red">
+{{ .Title }}
+    </span>
+
+{{ $variable := "Manuel" }}
+
+<h2> valor de la varialbe $variable = {{ $variable}}</h2>
+
+<footer class="footline">
+    {{- with .Params.LastModifierDisplayName }}
+    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{ with $.Date }} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{ end }}
+    {{- end }}
+</footer>
+{{- partial "footer.html" . }}
+

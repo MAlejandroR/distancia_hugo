@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduccion on Ejemplo uso hugo con relearn Distancia</title>
-    <link>http://example.org/introduccion/</link>
-    <description>Recent content in Introduccion on Ejemplo uso hugo con relearn Distancia</description>
+    <title>Introduccion on Ejemplo para el uso de idiomas</title>
+    <link>https://malejandror.githubio.com/docs/introduccion/</link>
+    <description>Recent content in Introduccion on Ejemplo para el uso de idiomas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 13:30:08 +0200</lastBuildDate><atom:link href="https://malejandror.githubio.com/docs/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquitectura_web</title>
+      <link>https://malejandror.githubio.com/docs/introduccion/arquitectura_web/</link>
+      <pubDate>Thu, 21 Oct 2021 13:30:08 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/introduccion/arquitectura_web/</guid>
+      <description>Introducción Este es un tema de arquitectura web que queremos visualizar</description>
+    </item>
   </channel>
 </rss>

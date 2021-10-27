@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Practica on Ejemplo uso hugo con relearn Distancia</title>
-    <link>http://example.org/static/practica/</link>
-    <description>Recent content in Practica on Ejemplo uso hugo con relearn Distancia</description>
+    <title>Practica on Ejemplo para el uso de idiomas</title>
+    <link>https://malejandror.githubio.com/docs/static/practica/</link>
+    <description>Recent content in Practica on Ejemplo para el uso de idiomas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/static/practica/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 13:31:19 +0200</lastBuildDate><atom:link href="https://malejandror.githubio.com/docs/static/practica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obtener Json</title>
+      <link>https://malejandror.githubio.com/docs/static/practica/datos/</link>
+      <pubDate>Thu, 21 Oct 2021 13:31:19 +0200</pubDate>
+      <guid>https://malejandror.githubio.com/docs/static/practica/datos/</guid>
+      <description>Listado de canales de tv </description>
+    </item>
   </channel>
 </rss>
