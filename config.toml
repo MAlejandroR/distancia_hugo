@@ -1,6 +1,8 @@
 #baseURL = 'http://example.org/'
 #baseURL = 'https://dwes.infenlaces.com/hugo/'
-baseURL = 'https://malejandror.githubio.com/docs'
+#baseURL = 'https://dwes.infenlaces.com/hugo/'
+#baseURL = 'https://dwes.infenlaces.com/hugo/'
+baseURL = 'https://malejandror.githubio.com/distancia_hugo'
 
 languageCode = 'en-us'
 title = 'Ejemplo uso hugo con relearn Distancia'
